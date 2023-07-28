@@ -31,3 +31,29 @@ font-size:xx-large;
   color: white;
   font-size: larger;
 }
+.button-style{
+  background: linear-gradient(90deg, #574E6D 50%, #DDDDDD 50%);
+  color: white;
+}
+
+.left-text{
+position: absolute;
+color: #00a426;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.right-text{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  color: #00a426;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: attr(data-text);
+  z-index: '1';
+};

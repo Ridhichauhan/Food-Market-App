@@ -13,8 +13,12 @@ const Home = () => {
       </div>
       <h1 className='text-paragraph mt-4 flex justify-center items-center'>Order delecious and quality food here!</h1>
 
-      <div className='flex justify-center items-center'>
-        <button className='bg-[#574E6D] h-[14vw] w-[62vw] text-white rounded-full'>sign in</button>
+      <div className='flex justify-center items-center mt-[224px]'>
+        <button className='bg-[#574E6D] h-[16vw] w-[68vw] rounded-full button-style'>
+        <span className='left-text' data-text='Sign'></span>
+        <span className='right-text' data-text='In'></span>
+        </button>
+
       </div>
     </div>
   )
