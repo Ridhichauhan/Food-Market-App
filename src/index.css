@@ -24,12 +24,12 @@ code {
 .text-style{
 font-family: 'poppins';
 color: white;
-font-size:xx-large;
+font-size:x-large;
 }
 .text-paragraph{
   font-family: 'poppins';
   color: white;
-  font-size: larger;
+  font-size:x-large;
 }
 .button-style{
   background: linear-gradient(90deg, #574E6D 50%, #DDDDDD 50%);
@@ -57,3 +57,7 @@ align-items: center;
   content: attr(data-text);
   z-index: '1';
 };
+
+.circle{
+  position: absolute;
+}
