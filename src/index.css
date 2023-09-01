@@ -57,7 +57,3 @@ align-items: center;
   content: attr(data-text);
   z-index: '1';
 };
-
-.circle{
-  position: absolute;
-}

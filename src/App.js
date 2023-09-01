@@ -1,9 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Email from './Components/Email';
 import Home from './Components/Home';
 import Login from "./Components/Login";
 import Main from "./Components/Main";
 import Food from "./Components/Food";
+import Register from "./Components/Register";
+import Card from "./Components/Card";
+
 
 function App() {
   return (
@@ -11,10 +13,11 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home/>} />
-          <Route path="/email" element={<Email />} />
+          <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login/>} />
           <Route path="/Main" element={<Main/>} />
           <Route path="/Food" element={<Food/>} />
+          <Route path="/Card" element={<Card/>} />
         </Routes>
       </Router>
     </div>

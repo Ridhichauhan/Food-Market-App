@@ -1,23 +1,20 @@
 import React from "react";
 
-const Main = () => {
+const Main = ({title,price,quantity,img}) => {
+ 
   return (
-    <div className="bgimg fixed w-screen">
-      <div className="flex justify-center items-center mt-[134px]">
-        <img src="logoo.png" alt="" className=""></img>
+    <div className="grid grid-cols-2  card mt-10 ml-10">
+        <div className="relative bg-[#574E6D] h-[24vh] w-[34vw] rounded-[64px]">
+          <img className="mt-[-40px]" alt="" src={img}></img>
+          <h1 className="text-[#dddd] mt-[-44px]">{title}</h1>
+          <h1 className="text-[#D5FFC3] ml-8 mt-2">{price}</h1>
+          <div className="flex">
+          <h1 className="text-[#D5FFC3] ml-8 mt-2 ">{quantity}</h1>
+          <img className=" h-4 w-4 ml-20 mt-3" alt="" src="like.png"></img>
+          </div>
+        </div>
+     
       </div>
-      <div className="flex justify-center items-center">
-        <h1 className="text-paragraph font-bold">Welocme to the online</h1>
-      </div>
-      <h1 className=" text-style mt-4 flex justify-center items-center">
-       Foodmarket
-      </h1>
-      <div className="flex justify-center items-center mt-[224px]">
-        <button className="bg-[#DDDD] h-[16vw] w-[68vw] rounded-full text-[#43405D] text-lg font-bold">
-          Login
-        </button>
-      </div>
-    </div>
   );
 };
 
