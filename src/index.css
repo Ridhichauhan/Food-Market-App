@@ -57,3 +57,8 @@ align-items: center;
   content: attr(data-text);
   z-index: '1';
 };
+.hover-bg:hover {
+  background-color:#DDDDDD; /* Add your desired hover background color here */
+  cursor: pointer;
+  /* Add any other styles you want for the hover effect */
+}

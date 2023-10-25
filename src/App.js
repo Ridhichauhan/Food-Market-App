@@ -5,6 +5,8 @@ import Main from "./Components/Main";
 import Food from "./Components/Food";
 import Register from "./Components/Register";
 import Card from "./Components/Card";
+import Cart from "./Components/Cart";
+import AddCart from "./Components/AddCart";
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
           <Route path="/Main" element={<Main/>} />
           <Route path="/Food" element={<Food/>} />
           <Route path="/Card" element={<Card/>} />
+          <Route path="/Cart" element={<Cart/>} />
+          <Route path="/AddCart" element={<AddCart/>}/>
         </Routes>
       </Router>
     </div>
