@@ -69,7 +69,7 @@ const Register = () => {
             )}
           </div>
 
-          <div className="relative ">
+          <div className="relative">
             <input
               className="flex w-[76vw] ml-12 mt-8 h-[6vh] outline-none border-4 border-white bg-transparent rounded-2xl pl-10 text-[#dddd]"
               style={{
@@ -83,7 +83,7 @@ const Register = () => {
               placeholder="Password"
             ></input>
             <img
-              className="flex ml-[352px] h-[4vh] w-[9vw] absolute mt-[-48px]"
+              className="flex ml-[310px] h-[4vh] w-[9vw] absolute mt-[-48px]"
               src="eye.png"
               alt=""
             ></img>
